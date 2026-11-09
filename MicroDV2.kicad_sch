@@ -7494,12 +7494,12 @@
 		(uuid "3d9f6da0-9e48-42da-a0a9-1b732a254048")
 	)
 	(no_connect
-		(at 353.06 106.68)
-		(uuid "44e93ad9-d7a4-4f9b-b1ac-b5e606f4e01f")
-	)
-	(no_connect
 		(at 219.71 125.73)
 		(uuid "4fa5ff8a-02ad-4558-918a-b6264b1cb3c0")
+	)
+	(no_connect
+		(at 375.92 111.76)
+		(uuid "5f1f7de6-d118-4374-96c9-ee1004499c55")
 	)
 	(no_connect
 		(at 100.33 223.52)
@@ -10911,16 +10911,6 @@
 		)
 		(uuid "9c1328e5-37cd-451b-aed5-1bfa41ad6605")
 	)
-	(label "Steering Fusibles (+)"
-		(at 375.92 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c988a8c-c057-406b-8138-6aa78f684e0c")
-	)
 	(label "Control SDC"
 		(at 130.81 140.97 0)
 		(effects
@@ -11260,6 +11250,16 @@
 			(justify right bottom)
 		)
 		(uuid "d51d2258-a4f4-463e-a1af-e4af34759330")
+	)
+	(label "Steering Fusibles (+)"
+		(at 353.06 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9a20742-d113-4990-94bd-76676372321b")
 	)
 	(label "Control SDC Micro (D4)"
 		(at 43.18 218.44 180)
