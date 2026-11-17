@@ -7519,6 +7519,10 @@
 		(uuid "120b4d93-3db1-4910-98c2-c09d7b729db6")
 	)
 	(no_connect
+		(at 353.06 104.14)
+		(uuid "1ca62bf7-def1-4f67-ab7b-fa9ee6d65150")
+	)
+	(no_connect
 		(at 353.06 106.68)
 		(uuid "1fa953b9-dbaf-47f6-8336-d4a122df56d5")
 	)
@@ -7537,6 +7541,10 @@
 	(no_connect
 		(at 219.71 125.73)
 		(uuid "4fa5ff8a-02ad-4558-918a-b6264b1cb3c0")
+	)
+	(no_connect
+		(at 353.06 101.6)
+		(uuid "56da5ac8-ecb6-4713-a88a-479c39377421")
 	)
 	(no_connect
 		(at 307.34 162.56)
@@ -10084,16 +10092,6 @@
 		)
 		(uuid "09ccd06d-a3b8-4eb9-b360-4bff3cd3477d")
 	)
-	(label "EBS Fusibles (-)"
-		(at 353.06 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e5cb515-08c4-4eff-9b09-04506397e967")
-	)
 	(label "12V de LVMS"
 		(at 72.39 129.54 0)
 		(effects
@@ -10234,7 +10232,7 @@
 		)
 		(uuid "25501ba7-6808-41f9-b21b-8249f4dfce3a")
 	)
-	(label "EBS Fusibles (+)"
+	(label "EBS 1 out (+)"
 		(at 334.01 217.17 180)
 		(effects
 			(font
@@ -10504,7 +10502,7 @@
 		)
 		(uuid "6807834d-7580-4290-bf92-d30078823772")
 	)
-	(label "EBS Fusibles (-)"
+	(label "EBS 1 out (+)"
 		(at 232.41 168.91 180)
 		(effects
 			(font
@@ -10534,7 +10532,7 @@
 		)
 		(uuid "6bd09854-b319-4578-9012-5c700f9673db")
 	)
-	(label "EBS 2 out (+)"
+	(label "EBS 1 out (+)"
 		(at 374.65 30.48 0)
 		(effects
 			(font
@@ -10704,7 +10702,7 @@
 		)
 		(uuid "930f4c7d-3924-4012-a6f1-25a52e1997f7")
 	)
-	(label "EBS 2 out (+)"
+	(label "EBS 1 out (+)"
 		(at 269.24 39.37 0)
 		(effects
 			(font
@@ -10713,16 +10711,6 @@
 			(justify left bottom)
 		)
 		(uuid "9325152f-1863-4c60-b334-155813be1b09")
-	)
-	(label "EBS Fusibles (+)"
-		(at 353.06 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c1328e5-37cd-451b-aed5-1bfa41ad6605")
 	)
 	(label "Steering Fusibles (+)"
 		(at 375.92 111.76 0)
@@ -10794,6 +10782,16 @@
 		)
 		(uuid "a5a22abb-266d-446d-8a70-505bf946ae18")
 	)
+	(label "LVMS in 24V"
+		(at 320.04 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5db414f-2a35-46ea-8717-70706de1ee68")
+	)
 	(label "CAN L 1"
 		(at 100.33 203.2 0)
 		(effects
@@ -10863,16 +10861,6 @@
 			(justify right bottom)
 		)
 		(uuid "af1a7da0-adbc-427c-bd9c-4932fc8be951")
-	)
-	(label "EBS Fusibles (+)"
-		(at 320.04 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af23ea4e-d27c-4903-92c4-3dd35193d824")
 	)
 	(label "Fusibles general DV 24V"
 		(at 353.06 96.52 180)
@@ -10974,7 +10962,7 @@
 		)
 		(uuid "be25bab3-52ac-4cae-b0c5-14822eb63e88")
 	)
-	(label "EBS Fusibles (-)"
+	(label "EBS 1 out (+)"
 		(at 255.27 33.02 180)
 		(effects
 			(font
@@ -11024,7 +11012,7 @@
 		)
 		(uuid "cce5bb55-7e29-4b41-ae2a-cff8d3c02415")
 	)
-	(label "EBS Fusibles (-)"
+	(label "EBS 1 out (+)"
 		(at 369.57 153.67 180)
 		(effects
 			(font
@@ -11194,7 +11182,7 @@
 		)
 		(uuid "f1db04a1-5dc3-4b11-bd13-13b9f1acd5cf")
 	)
-	(label "EBS Fusibles (-)"
+	(label "EBS 1 out (+)"
 		(at 317.5 175.26 0)
 		(effects
 			(font
@@ -11304,7 +11292,7 @@
 		)
 		(uuid "ff6e67d2-1edb-4cfb-9db7-87a10568380f")
 	)
-	(label "EBS Fusibles (-)"
+	(label "EBS 1 out (+)"
 		(at 193.04 34.29 180)
 		(effects
 			(font
@@ -18913,7 +18901,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "73d2dd76-3b2f-41cd-a578-11e608677f10")
 		(property "Reference" "SW1"
