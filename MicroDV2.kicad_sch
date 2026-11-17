@@ -7539,6 +7539,10 @@
 		(uuid "1fa953b9-dbaf-47f6-8336-d4a122df56d5")
 	)
 	(no_connect
+		(at 351.79 30.48)
+		(uuid "2b9c1037-065c-436a-9f7a-a2b6bf48c66a")
+	)
+	(no_connect
 		(at 353.06 109.22)
 		(uuid "30bc13f8-45ae-4474-afd1-4dc40c140c91")
 	)
@@ -7587,16 +7591,16 @@
 		(uuid "7f7424a7-42b5-4de3-8ba5-5d7be93d7ff0")
 	)
 	(no_connect
+		(at 375.92 111.76)
+		(uuid "8c2d5992-a2d7-41a1-9cf1-088b5168695f")
+	)
+	(no_connect
 		(at 375.92 99.06)
 		(uuid "8c6307f0-ef53-4462-b8d7-eefb728fc1b0")
 	)
 	(no_connect
 		(at 44.45 205.74)
 		(uuid "909a4dfc-13e7-4b09-b982-6b5a014a17a7")
-	)
-	(no_connect
-		(at 375.92 106.68)
-		(uuid "a3c9bed3-4ede-4423-aa55-f77a432b85e7")
 	)
 	(no_connect
 		(at 100.33 233.68)
@@ -7633,6 +7637,10 @@
 	(no_connect
 		(at 309.88 162.56)
 		(uuid "fe4c37e5-91f3-4320-a8d8-28c833d2440a")
+	)
+	(no_connect
+		(at 351.79 27.94)
+		(uuid "ff5ee644-435c-4116-9b2a-0b84aaa9a244")
 	)
 	(wire
 		(pts
@@ -7713,16 +7721,6 @@
 			(type default)
 		)
 		(uuid "07866d72-1ede-4a62-a80f-c9d9bc214ef9")
-	)
-	(wire
-		(pts
-			(xy 293.37 96.52) (xy 293.37 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07edad1c-b7c1-477e-a1fb-66099bc5394c")
 	)
 	(wire
 		(pts
@@ -10184,16 +10182,6 @@
 		)
 		(uuid "10d0e2dd-8c84-401d-b18f-be8419a8f53d")
 	)
-	(label "24V Steering"
-		(at 293.37 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11e1f249-79c4-4ac8-b992-1cb814e2822f")
-	)
 	(label "CAN 1 L DATALOGGER"
 		(at 125.73 231.14 180)
 		(effects
@@ -10353,16 +10341,6 @@
 			(justify right bottom)
 		)
 		(uuid "304c30f8-c833-4dd2-aec4-8e9005450760")
-	)
-	(label "Steering Fusibles (+)"
-		(at 334.01 212.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "34678f5d-f85c-408e-9b43-fda436868e94")
 	)
 	(label "Micro in EBS (A3)"
 		(at 43.18 231.14 180)
@@ -10654,16 +10632,6 @@
 		)
 		(uuid "703e28f1-4457-4e3a-87c3-ad297a2f2983")
 	)
-	(label "Steering Fusibles (-)"
-		(at 293.37 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "761ea8c0-7e33-4dc6-88a2-aea52ca3e0b6")
-	)
 	(label "ASMS in 1"
 		(at 334.01 222.25 180)
 		(effects
@@ -10723,16 +10691,6 @@
 			(justify right bottom)
 		)
 		(uuid "80b5f87e-8e3c-4300-bee8-d7249508c851")
-	)
-	(label "Steering GND"
-		(at 351.79 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81581f55-f689-4add-806d-0d9be7978aca")
 	)
 	(label "24V de LVMS Sensor Presion 2"
 		(at 374.65 50.8 0)
@@ -10823,16 +10781,6 @@
 			(justify left bottom)
 		)
 		(uuid "9325152f-1863-4c60-b334-155813be1b09")
-	)
-	(label "Steering Fusibles (+)"
-		(at 375.92 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c988a8c-c057-406b-8138-6aa78f684e0c")
 	)
 	(label "Control SDC"
 		(at 130.81 140.97 0)
@@ -11294,6 +11242,16 @@
 		)
 		(uuid "f1db04a1-5dc3-4b11-bd13-13b9f1acd5cf")
 	)
+	(label "Fusibles General (-)"
+		(at 375.92 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4e6792f-cc4e-47fc-84a1-d0526ec64789")
+	)
 	(label "EBS 1 out (+)"
 		(at 317.5 175.26 0)
 		(effects
@@ -11303,16 +11261,6 @@
 			(justify left bottom)
 		)
 		(uuid "f5ca1d9a-08eb-44ec-8216-d3c8fedb5b05")
-	)
-	(label "24V Steering"
-		(at 351.79 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f5ca2d0e-f49a-42e5-8c5f-af63b9f061f8")
 	)
 	(label "Señal RES"
 		(at 295.91 55.88 180)
@@ -18770,85 +18718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Connector:TestPoint")
-		(at 355.6 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c83d6f9-1b9f-46ed-832f-0a9caa6d8846")
-		(property "Reference" "TP6"
-			(at 358.14 207.5179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 358.14 210.0579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 360.68 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 355.6 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40300e63-a3e4-4f66-ad7d-2f34953fd8f6")
-		)
-		(instances
-			(project "MicroDV2"
-				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 204.47 266.7 0)
 		(unit 1)
@@ -20064,85 +19933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Connector:TestPoint")
-		(at 334.01 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b0387d7-6c23-471c-9d69-4ef10a84688c")
-		(property "Reference" "TP5"
-			(at 336.55 207.5179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 336.55 210.0579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 339.09 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 334.01 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "486322a8-327a-436f-ae8d-bb78007a802d")
-		)
-		(instances
-			(project "MicroDV2"
-				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Converter_DCDC:OKI-78SR-5_1.5-W36-C")
 		(at 191.77 262.89 0)
 		(unit 1)
@@ -20846,85 +20636,6 @@
 			(project "MicroDV2"
 				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
 					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 355.6 212.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c47684c-1466-4c4a-adf2-33090cda53f9")
-		(property "Reference" "#PWR053"
-			(at 349.25 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 351.79 212.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 355.6 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59baf086-3f45-4c07-9278-0db209ad4eaa")
-		)
-		(instances
-			(project "MicroDV2"
-				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
